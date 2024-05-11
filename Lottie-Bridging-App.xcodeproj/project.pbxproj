@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D2CBFCD2BBEA87600F00CE8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2CBFCC2BBEA87600F00CE8 /* AppDelegate.m */; };
+		3D2CBFD02BBEA87600F00CE8 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2CBFCF2BBEA87600F00CE8 /* SceneDelegate.m */; };
+		3D2CBFD32BBEA87600F00CE8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2CBFD22BBEA87600F00CE8 /* ViewController.m */; };
+		3D2CBFD62BBEA87600F00CE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D2CBFD42BBEA87600F00CE8 /* Main.storyboard */; };
+		3D2CBFD92BBEA87600F00CE8 /* Lottie_Bridging_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3D2CBFD72BBEA87600F00CE8 /* Lottie_Bridging_App.xcdatamodeld */; };
+		3D2CBFDB2BBEA87900F00CE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D2CBFDA2BBEA87900F00CE8 /* Assets.xcassets */; };
+		3D2CBFDE2BBEA87900F00CE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D2CBFDC2BBEA87900F00CE8 /* LaunchScreen.storyboard */; };
+		3D2CBFE12BBEA87900F00CE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2CBFE02BBEA87900F00CE8 /* main.m */; };
+		3D2CBFEB2BBEAA9C00F00CE8 /* Lottie in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D2CBFEA2BBEAA9C00F00CE8 /* Lottie */; };
+		3D2CBFEE2BBEAF1C00F00CE8 /* LottieWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2CBFED2BBEAF1C00F00CE8 /* LottieWrapper.swift */; };
+		66918B18317E00BDF3A269DE /* Pods_Lottie_Bridging_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED7D449F1F3E2CD0C03A60BF /* Pods_Lottie_Bridging_App.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C008F93C8C8E5C1695C8005 /* Pods-Lottie-Bridging-App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lottie-Bridging-App.release.xcconfig"; path = "Target Support Files/Pods-Lottie-Bridging-App/Pods-Lottie-Bridging-App.release.xcconfig"; sourceTree = "<group>"; };
+		3D2CBFC82BBEA87600F00CE8 /* Lottie-Bridging-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lottie-Bridging-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D2CBFCB2BBEA87600F00CE8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3D2CBFCC2BBEA87600F00CE8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3D2CBFCE2BBEA87600F00CE8 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		3D2CBFCF2BBEA87600F00CE8 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		3D2CBFD12BBEA87600F00CE8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3D2CBFD22BBEA87600F00CE8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3D2CBFD52BBEA87600F00CE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D2CBFD82BBEA87600F00CE8 /* Lottie_Bridging_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lottie_Bridging_App.xcdatamodel; sourceTree = "<group>"; };
+		3D2CBFDA2BBEA87900F00CE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D2CBFDD2BBEA87900F00CE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D2CBFDF2BBEA87900F00CE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D2CBFE02BBEA87900F00CE8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D2CBFEA2BBEAA9C00F00CE8 /* Lottie */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = Lottie; path = ../../theos/lib/Lottie.framework/Lottie; sourceTree = "<group>"; };
+		3D2CBFEC2BBEAF1B00F00CE8 /* Lottie-Bridging-App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lottie-Bridging-App-Bridging-Header.h"; sourceTree = "<group>"; };
+		3D2CBFED2BBEAF1C00F00CE8 /* LottieWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieWrapper.swift; sourceTree = "<group>"; };
+		89B16B5F2FF24E27526CC59B /* Pods-Lottie-Bridging-App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lottie-Bridging-App.debug.xcconfig"; path = "Target Support Files/Pods-Lottie-Bridging-App/Pods-Lottie-Bridging-App.debug.xcconfig"; sourceTree = "<group>"; };
+		ED7D449F1F3E2CD0C03A60BF /* Pods_Lottie_Bridging_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lottie_Bridging_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D2CBFC52BBEA87600F00CE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D2CBFEB2BBEAA9C00F00CE8 /* Lottie in Frameworks */,
+				66918B18317E00BDF3A269DE /* Pods_Lottie_Bridging_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D2CBFBF2BBEA87600F00CE8 = {
+			isa = PBXGroup;
+			children = (
+				3D2CBFCA2BBEA87600F00CE8 /* Lottie-Bridging-App */,
+				3D2CBFC92BBEA87600F00CE8 /* Products */,
+				3D2CBFE92BBEAA9C00F00CE8 /* Frameworks */,
+				B05877ABC3F5D28B61D069AA /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		3D2CBFC92BBEA87600F00CE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D2CBFC82BBEA87600F00CE8 /* Lottie-Bridging-App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D2CBFCA2BBEA87600F00CE8 /* Lottie-Bridging-App */ = {
+			isa = PBXGroup;
+			children = (
+				3D2CBFCB2BBEA87600F00CE8 /* AppDelegate.h */,
+				3D2CBFCC2BBEA87600F00CE8 /* AppDelegate.m */,
+				3D2CBFCE2BBEA87600F00CE8 /* SceneDelegate.h */,
+				3D2CBFCF2BBEA87600F00CE8 /* SceneDelegate.m */,
+				3D2CBFD12BBEA87600F00CE8 /* ViewController.h */,
+				3D2CBFD22BBEA87600F00CE8 /* ViewController.m */,
+				3D2CBFED2BBEAF1C00F00CE8 /* LottieWrapper.swift */,
+				3D2CBFD42BBEA87600F00CE8 /* Main.storyboard */,
+				3D2CBFDA2BBEA87900F00CE8 /* Assets.xcassets */,
+				3D2CBFDC2BBEA87900F00CE8 /* LaunchScreen.storyboard */,
+				3D2CBFDF2BBEA87900F00CE8 /* Info.plist */,
+				3D2CBFE02BBEA87900F00CE8 /* main.m */,
+				3D2CBFD72BBEA87600F00CE8 /* Lottie_Bridging_App.xcdatamodeld */,
+				3D2CBFEC2BBEAF1B00F00CE8 /* Lottie-Bridging-App-Bridging-Header.h */,
+			);
+			path = "Lottie-Bridging-App";
+			sourceTree = "<group>";
+		};
+		3D2CBFE92BBEAA9C00F00CE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D2CBFEA2BBEAA9C00F00CE8 /* Lottie */,
+				ED7D449F1F3E2CD0C03A60BF /* Pods_Lottie_Bridging_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B05877ABC3F5D28B61D069AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89B16B5F2FF24E27526CC59B /* Pods-Lottie-Bridging-App.debug.xcconfig */,
+				1C008F93C8C8E5C1695C8005 /* Pods-Lottie-Bridging-App.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D2CBFC72BBEA87600F00CE8 /* Lottie-Bridging-App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D2CBFE42BBEA87900F00CE8 /* Build configuration list for PBXNativeTarget "Lottie-Bridging-App" */;
+			buildPhases = (
+				95EC7F599BF0DDD91BC82350 /* [CP] Check Pods Manifest.lock */,
+				3D2CBFC42BBEA87600F00CE8 /* Sources */,
+				3D2CBFC52BBEA87600F00CE8 /* Frameworks */,
+				3D2CBFC62BBEA87600F00CE8 /* Resources */,
+				A997C905677FD2ED465F4885 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lottie-Bridging-App";
+			productName = "Lottie-Bridging-App";
+			productReference = 3D2CBFC82BBEA87600F00CE8 /* Lottie-Bridging-App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D2CBFC02BBEA87600F00CE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					3D2CBFC72BBEA87600F00CE8 = {
+						CreatedOnToolsVersion = 14.1;
+						LastSwiftMigration = 1410;
+					};
+				};
+			};
+			buildConfigurationList = 3D2CBFC32BBEA87600F00CE8 /* Build configuration list for PBXProject "Lottie-Bridging-App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D2CBFBF2BBEA87600F00CE8;
+			productRefGroup = 3D2CBFC92BBEA87600F00CE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D2CBFC72BBEA87600F00CE8 /* Lottie-Bridging-App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D2CBFC62BBEA87600F00CE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D2CBFDE2BBEA87900F00CE8 /* LaunchScreen.storyboard in Resources */,
+				3D2CBFDB2BBEA87900F00CE8 /* Assets.xcassets in Resources */,
+				3D2CBFD62BBEA87600F00CE8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		95EC7F599BF0DDD91BC82350 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lottie-Bridging-App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A997C905677FD2ED465F4885 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lottie-Bridging-App/Pods-Lottie-Bridging-App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lottie-Bridging-App/Pods-Lottie-Bridging-App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lottie-Bridging-App/Pods-Lottie-Bridging-App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D2CBFC42BBEA87600F00CE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D2CBFE12BBEA87900F00CE8 /* main.m in Sources */,
+				3D2CBFD92BBEA87600F00CE8 /* Lottie_Bridging_App.xcdatamodeld in Sources */,
+				3D2CBFEE2BBEAF1C00F00CE8 /* LottieWrapper.swift in Sources */,
+				3D2CBFD32BBEA87600F00CE8 /* ViewController.m in Sources */,
+				3D2CBFCD2BBEA87600F00CE8 /* AppDelegate.m in Sources */,
+				3D2CBFD02BBEA87600F00CE8 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3D2CBFD42BBEA87600F00CE8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D2CBFD52BBEA87600F00CE8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D2CBFDC2BBEA87900F00CE8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D2CBFDD2BBEA87900F00CE8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D2CBFE22BBEA87900F00CE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3D2CBFE32BBEA87900F00CE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D2CBFE52BBEA87900F00CE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89B16B5F2FF24E27526CC59B /* Pods-Lottie-Bridging-App.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					arm64e,
+				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3S3425MV79;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Lottie-Bridging-App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yan.Lottie-Bridging-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Lottie-Bridging-App/Lottie-Bridging-App-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "Lottie-Swift.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D2CBFE62BBEA87900F00CE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C008F93C8C8E5C1695C8005 /* Pods-Lottie-Bridging-App.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					arm64e,
+				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3S3425MV79;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Lottie-Bridging-App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yan.Lottie-Bridging-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Lottie-Bridging-App/Lottie-Bridging-App-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "Lottie-Swift.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D2CBFC32BBEA87600F00CE8 /* Build configuration list for PBXProject "Lottie-Bridging-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D2CBFE22BBEA87900F00CE8 /* Debug */,
+				3D2CBFE32BBEA87900F00CE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D2CBFE42BBEA87900F00CE8 /* Build configuration list for PBXNativeTarget "Lottie-Bridging-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D2CBFE52BBEA87900F00CE8 /* Debug */,
+				3D2CBFE62BBEA87900F00CE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3D2CBFD72BBEA87600F00CE8 /* Lottie_Bridging_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3D2CBFD82BBEA87600F00CE8 /* Lottie_Bridging_App.xcdatamodel */,
+			);
+			currentVersion = 3D2CBFD82BBEA87600F00CE8 /* Lottie_Bridging_App.xcdatamodel */;
+			path = Lottie_Bridging_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3D2CBFC02BBEA87600F00CE8 /* Project object */;
+}
